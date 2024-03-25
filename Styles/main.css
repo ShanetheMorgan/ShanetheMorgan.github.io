@@ -8,17 +8,17 @@ p {
 
 h1 {
     color: hotpink;
+    border-bottom: purple dotted 10px;
 }
 
 h2 {
     color: purple;
-    border-bottom: dotted 10px;
     font-style:italic;
 }
 
 ul {
     background-color: #eeeeee;
-    border: purple 5px;
+    border: purple 5px solid;
     padding: 5px;
 }
 
