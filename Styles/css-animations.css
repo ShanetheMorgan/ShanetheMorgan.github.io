@@ -5,8 +5,8 @@
 
 .hover-highlight-card:hover{
     background-color: #00aaff;
-    box-shadow: 10px 5px -5px red;
-    transition: 15ms;
+    box-shadow: 10px -5px 5px red;
+    transition: 0.5s;
     border:black;
 }
 
@@ -61,4 +61,5 @@
     width: 100px;
     height: 100px;
     object-fit: cover;
+    opacity: 0.5;
 }
