@@ -33,7 +33,16 @@
     background-color: #00aaff;
     color: white;
     cursor: pointer;
-    transform: translate(5px -5px)
+}
+
+.button-press-animation button:active {
+    padding: 10px 20px;
+    border:#00aaff;
+    background-color: #00aaff;
+    color: white;
+    cursor: pointer;
+    transform:translate(-2px, -2%);
+    box-shadow:#00aaff 1px 1px;
 }
 
 /* Task 4: Simple Loading Spinner */
@@ -47,8 +56,12 @@
 }
 
 @keyframes spinner {
-    from{
-        
+    from{transform:rotate(0);
+    
+    }
+    
+    to{transform:rotate(1turn);
+    
     }
 }
 
@@ -64,3 +77,14 @@
     object-fit: cover;
     opacity: 0.5;
 }
+
+.fading-gallery img:hover {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    opacity: 1;
+    transition:0.5s;
+    transform:translate(10px),scale(1.5);
+    box-shadow:black 5px 5px;
+}
+
