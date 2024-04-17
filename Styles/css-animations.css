@@ -84,7 +84,7 @@
     object-fit: cover;
     opacity: 1;
     transition:0.5s;
-    transform:translate(10px),scale(1.5);
+    transform:translateY(-10px) scale(1.5);
     box-shadow:black 5px 5px;
 }
 
