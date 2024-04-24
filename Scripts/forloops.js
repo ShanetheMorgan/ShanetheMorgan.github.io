@@ -18,10 +18,16 @@ for(let i = 0; i < 51; i += 2 ) {
 }
 
 console.log("Task 4")
-
-for(let i = 0; i < 101; i++) {
-    for(let j = 0; j < 101; j++){
-        console.log(i + j)
-    }
+let sum = 1;
+for( i = 2; i < 101; i++) {
+    sum += i;
 }
+console.log(sum)
+
 console.log("Task 5")
+
+let fact
+for(i = 1; i < 11; i++) {
+    ()
+}
+
