@@ -66,3 +66,12 @@ for(let i = 0; i < 10; i++) {
 console.log(fibarr);
 
 console.log("Task 10");
+
+let newarr = [];
+
+for(let i = 0; i < arr.length; i++) {
+    newarr.push(arr(-i-1))
+}
+console.log(newarr);
+
+
