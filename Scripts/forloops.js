@@ -70,7 +70,7 @@ console.log("Task 10");
 let newarr = [];
 
 for(let i = 0; i < arr.length; i++) {
-    newarr.push(arr(-i-1))
+    newarr.push(arr.at(-i-1))
 }
 console.log(newarr);
 
