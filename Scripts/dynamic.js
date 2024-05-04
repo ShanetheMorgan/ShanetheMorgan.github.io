@@ -2,4 +2,7 @@ let arr = ["red", "aqua", "chocolate", "darkgoldenrod", "darkslategrey", "orange
 
 let ul = document.createElement("ul");
 
-arr.innerText
+for (let i; i < ul.length; i ++) {
+    ul.innerText = string
+};
+
