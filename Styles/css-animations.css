@@ -46,21 +46,22 @@
 }
 
 /* Task 4: Simple Loading Spinner */
-.simple-loading-spinner .spinner {
-    border: 4px solid #f3f3f3;
-    border-top: 4px solid #3498db;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    animation: spinner 1s infinite linear;
+.guitar_animation .guitar {
+    width: 30vw;
+    height: auto;
+    animation: guitar 1s infinite linear;
 }
 
-@keyframes spinner {
-    from{transform:rotate(0);
+@keyframes guitar {
+    0%{transform:rotate(75deg);
     
     }
     
-    to{transform:rotate(1turn);
+    50%{transform:rotate(-75deg);
+    
+    }
+
+    100%{transform:rotate(75deg);
     
     }
 }
