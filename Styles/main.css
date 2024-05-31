@@ -1,5 +1,9 @@
+body {
+    background-color: #4d2020;
+}
+
 p {
-    color: red;
+    color: #EB4A44;
 }
 
 #books {
@@ -7,21 +11,25 @@ p {
 }
 
 h1 {
-    color: hotpink;
-    border-bottom: purple dotted 10px;
+    color: #ebc344;
+    border-bottom: red dotted 10px;
 }
 
 h2 {
-    color: purple;
+    color: #ebc344;
     font-style:italic;
 }
 
 ul {
-    background-color: #eeeeee;
-    border: purple 5px solid;
+    background-color: #af7c7c;
+    border: red 5px solid;
     padding: 5px;
 }
 
 a:hover {
-    color:green;
+    color:darkgreen;
+}
+
+a {
+    color: maroon;
 }

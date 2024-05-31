@@ -1,48 +1,33 @@
-/* Task 1: Hover Highlight Card */
-.hover-highlight-card {
-    padding: 20px;
+body {
+    background-color:maroon
 }
 
-.hover-highlight-card:hover{
-    background-color: #00aaff;
-    box-shadow: 10px -5px 5px red;
-    transition: 0.5s;
-    border:black;
+p {
+    color: #EB4A44;
 }
 
-/* Task 2: Animated Navigation Menu */
-.animated-nav-menu ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 10px;
+h1 {
+    color: #ebc344;
+    border-bottom: red dotted 10px;
 }
 
-.animated-nav-menu a:hover {
-    text-decoration: none;
-    transition: 0.5s;
-    border-radius: 10%;
-    padding: 4px;
-    color: white;
-    background-color: #00aaff;
-}
-/* Task 3: Button Press Animation */
-.button-press-animation button {
-    padding: 10px 20px;
-    border: none;
-    background-color: #00aaff;
-    color: white;
-    cursor: pointer;
+h2 {
+    color: #ebc344;
+    font-style:italic;
 }
 
-.button-press-animation button:active {
-    padding: 10px 20px;
-    border:#00aaff;
-    background-color: #00aaff;
-    color: white;
-    cursor: pointer;
-    transform:translate(-2px, -2%);
-    box-shadow:#00aaff 1px 1px;
+ul {
+    background-color: #af7c7c;
+    border: red 5px solid;
+    padding: 5px;
+}
+
+a:hover {
+    color:darkgreen;
+}
+
+a {
+    color: maroon;
 }
 
 /* Task 4: Simple Loading Spinner */
