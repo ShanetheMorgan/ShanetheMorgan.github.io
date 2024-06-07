@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Guitar</title>
     <link href="../Styles/css-animations.css" rel="stylesheet">
+    <link href="../Styles/main.css" rel="stylesheet">
 </head>
 
 <body>
@@ -17,12 +18,23 @@
 
     </div>
 
-    <h2>Me Playing Guitar</h2>
+    <audio controls src="../Audio/soundEffect.mp3"></audio>
+    <button>Play</button>
+    <p>I have been playing guitar for years</p>
+
+    <h2 id = "strange">Me Playing Guitar</h2>
 
 //button which plays a recording on me playing guitar here
 
 
-    <p><a href="../index.html">back</a></p>
+    <p ><a href="../index.html">back</a></p>
+
+    <script>
+        let playButton = document.querySelector("button")
+        playButton.addEventListener("click", function(){
+            document.querySelector("audio").play();
+        })
+    </script>
 </body>
 
 </html>

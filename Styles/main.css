@@ -6,13 +6,14 @@ p {
     color: #EB4A44;
 }
 
-#books {
-    font-size: xx-small;
+#strange {
+    border: 10px solid #ebc344;
 }
 
 h1 {
     color: #ebc344;
     border-bottom: red dotted 10px;
+    font-style:italic;
 }
 
 h2 {
@@ -24,6 +25,11 @@ ul {
     background-color: #af7c7c;
     border: red 5px solid;
     padding: 5px;
+}
+
+ul > li {
+    color: red;
+    margin: 24px;
 }
 
 a:hover {
