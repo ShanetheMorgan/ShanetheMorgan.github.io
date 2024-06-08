@@ -6,6 +6,11 @@ p {
     color: #EB4A44;
 }
 
+img { 
+    height:250px;
+    width:230px;
+}
+
 #strange {
     border: 10px solid #ebc344;
 }
